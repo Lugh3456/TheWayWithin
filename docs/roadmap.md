@@ -57,6 +57,10 @@ For each new addition:
 - Performance review (font loading, layout shift)
 - Full accessibility audit
 - Deploy all sites to GitHub Pages
+  - ✅ TheWayWithin portal — https://lugh3456.github.io/TheWayWithin/
+  - ✅ Yijing — https://lugh3456.github.io/Yijing/
+  - ✅ DaoDeJing — https://lugh3456.github.io/DaoDeJing/
+  - ⬜ ZengGuoFan — not yet deployed
 
 ---
 
