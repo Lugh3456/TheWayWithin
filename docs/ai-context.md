@@ -87,9 +87,9 @@ Do not rename these classes unless necessary.
 
 | Site | URL |
 |------|-----|
-| Yijing | https://lugh3456.github.io/Yijing/ |
-| ZengGuoFan | https://lugh3456.github.io/ZengGuoFan/ |
-| DaoDeJing | https://lugh3456.github.io/DaoDeJing/ |
+| Yijing | https://lugh3456.github.io/Yijing/index.html |
+| ZengGuoFan | https://lugh3456.github.io/ZengGuoFan/index.html |
+| DaoDeJing | https://lugh3456.github.io/DaoDeJing/index.html |
 
 All mini sites have index.html at their repository root.
 Do not add /src/pages/ or any subfolder prefix to these URLs.
