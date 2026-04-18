@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Way Within | 修身之道</title>
   <meta name="description" content="A growing collection of classical Chinese wisdom — texts and teachings on self-cultivation, the Way, and the examined life.">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1c1a14">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Way Within">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
 
@@ -496,6 +505,15 @@
   <footer>
     <p>The Way Within · 修身之道 &nbsp;|&nbsp; A personal study collection</p>
   </footer>
+
+  <!-- Service Worker registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js');
+      });
+    }
+  </script>
 
 </body>
 </html>
