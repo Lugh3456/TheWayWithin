@@ -4,12 +4,36 @@ Always read this file before modifying the site.
 
 ---
 
+# Current State
+Last updated: 2026-04-18
+Phase: Phase 3 — Content Expansion
+Last completed: Phase 5 complete — PWA support added (manifest.json, sw.js, icons/, PWA meta tags in index.html)
+In progress: —
+Next up: —
+
+---
+
 # Project Purpose
 
 The Way Within (修身之道) is a **master portal** — a hub page that links out to a growing collection of classical Chinese wisdom mini sites.
 
 It is not a content site. It does not host articles or lessons.
 Its job is to present each mini site as a card and link to it.
+
+---
+
+# PWA Files
+
+Added 2026-04-18. The portal is now installable as a PWA.
+
+| File | Purpose |
+|------|---------|
+| `manifest.json` | PWA manifest — name, colours, icon paths |
+| `sw.js` | Service worker — cache name `the-way-within-v1`, cache-first strategy, offline fallback to index.html |
+| `icons/icon-192.png` | Gold ☯ on dark background, 192×192 |
+| `icons/icon-512.png` | Gold ☯ on dark background, 512×512 |
+
+When bumping the service worker cache (e.g. after a significant update), increment the version in `sw.js`: `the-way-within-v2`, etc.
 
 ---
 
