@@ -60,7 +60,16 @@ For each new addition:
   - ✅ TheWayWithin portal — https://lugh3456.github.io/TheWayWithin/
   - ✅ Yijing — https://lugh3456.github.io/Yijing/
   - ✅ DaoDeJing — https://lugh3456.github.io/DaoDeJing/
-  - ⬜ ZengGuoFan — not yet deployed
+  - ✅ ZengGuoFan — https://lugh3456.github.io/ZengGuoFan/ (deployed 2026-04-08)
+
+---
+
+# Phase 5 — PWA Support (Completed 2026-04-18)
+
+- ✅ Generated gold ☯ icons (192×192 and 512×512) for the portal
+- ✅ Added `manifest.json` with correct name, description, and colour scheme
+- ✅ Added `sw.js` service worker (cache-first, offline fallback)
+- ✅ Updated `index.html` with PWA meta tags and service worker registration
 
 ---
 
